@@ -21,7 +21,7 @@
 
 ---
 
-## 2. ANN-CNN Hybrid for Colorization  
+## 2. ANN-CNN Hybrid for Animal Detetection 
 
 **Performance Metrics:**  
 - **Testing Accuracy:** 66.56%  
@@ -37,7 +37,7 @@
 
 **Visual Comparison:**  
 ![Comparison 1](https://github.com/user-attachments/assets/a53d4a54-9118-49f2-adcc-f70c6ab230f1)  
-![Comparison 2](https://github.com/user-attachments/assets/90a97b82-7b70-4457-adf9-f93b72983b7c)  
+ 
 
 ---
 
@@ -48,11 +48,23 @@
    - SNN outperformed ANN-CNN by **17.9% in accuracy**.  
    - SNN demonstrated better generalization with balanced class performance.  
 
-2. **SNN vs. ANN-CNN for Colorization:**  
+2. **SNN-CNN vs. ANN-CNN for Colorization:**  
    - ANN-CNN produced higher-quality outputs with a lower MSE and higher PSNR.  
    - SNN achieved better structural similarity (SSIM), but results were noisier.  
 
+**Histogram**
+
+SNN-CNN :
+
+![colorization](https://github.com/user-attachments/assets/507260c6-c9f3-4c92-9b53-532fd2964183)
+
 ![Histogram Comparison](https://github.com/user-attachments/assets/0695c999-77a8-460f-938c-c4c031016958)  
+
+ANN-CNN :
+
+![WhatsApp Image 2024-11-22 at 21 07 08_d05a2975](https://github.com/user-attachments/assets/47867d34-a593-4414-8af2-4d3d61eb0514)
+
+![Comparison 2](https://github.com/user-attachments/assets/90a97b82-7b70-4457-adf9-f93b72983b7c) 
 
 ---
 
